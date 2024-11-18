@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #011c30; /* Dark Navy Blue background */
+    color: #f9f0e1; /* Creamy Beige text for contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container for Centered Content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+header {
+    background-color: #022e47; /* Darker Navy Blue background */
+    padding: 50px 0;
+    text-align: center;
+    color: #f9f0e1; /* Creamy beige text */
+    border-bottom: 4px solid #f9f0e1; /* Creamy beige bottom border for partition */
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #f9f0e1; /* Creamy beige title color */
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+    background-color: #000000; /* Black background for sections */
+    margin-bottom: 30px;
+    border-bottom: 3px solid #022e47; /* Dark Navy Blue bottom border */
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #f9f0e1; /* Creamy Beige color for section titles */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #000000; /* Black background for skill cards */
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border: 2px solid #022e47; /* Dark Navy Blue border for skill cards */
+}
+
+.skill-card h3 {
+    font-size: 1.8em;
+    color: #f9f0e1; /* Creamy Beige color for skill titles */
+}
+
+.skill-card p {
+    font-size: 1.1em;
+    color: #f9f0e1; /* Creamy Beige text for descriptions */
+}
+
+/* Hover effect for skill cards (grey on hover) */
+.skill-card:hover {
+    background-color: #7f8c8d; /* Grey background on hover */
+    color: #fff; /* White text when hovered */
+    cursor: pointer;
+}
+
+/* Contact Section */
+a {
+    color: #f9f0e1; /* Creamy Beige link color */
+    text-decoration: none;
+}
+
+/* Hover effect for links (grey on hover) */
+a:hover {
+    color: #7f8c8d; /* Grey color on hover for links */
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #022e47; /* Dark Navy Blue footer background */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 4px solid #f9f0e1; /* Creamy Beige top border */
+}
+
+footer p {
+    font-size: 1.1em;
+    color: #f9f0e1; /* Creamy Beige text */
+}
